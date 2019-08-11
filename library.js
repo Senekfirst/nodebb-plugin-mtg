@@ -73,7 +73,7 @@ plugin.query = function (query, callback) {
 		method: 'get',
 		json: true,
 	}, function (err, res, body) {
-		if (!plugin._settings.key || !body || !body.results) {
+		if (!plugin._settings.key || !body || !body.Results) {
 			err = new Error('[[error:invalid-login-credentials]]');
 		}
 
