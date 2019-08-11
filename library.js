@@ -82,7 +82,7 @@ plugin.query = function (query, callback) {
 		}
 
 		// Clear the objects
-		var cards = body.results.map(function (cardData) {
+		var cards = body.Results.map(function (cardData) {
 			return {
 				id: cardData.ID,
 				name: cardData.Name,
