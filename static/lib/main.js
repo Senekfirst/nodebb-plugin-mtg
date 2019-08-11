@@ -111,7 +111,7 @@ $(document).ready(function () {
 				});
 
 				resultsEl.on('click', 'img[data-url]', function () {
-					callback(this.getAttribute('data-url'), queryEl.val());
+					callback(this.getAttribute('data-url'), this.getAttribute('alt'));
 					modal.modal('hide');
 				});
 			});
