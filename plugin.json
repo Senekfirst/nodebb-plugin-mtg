@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-mtg",
+	"id": "nodebb-plugin-search-mtg",
 	"url": "https://github.com/Senekfirst/nodebb-plugin-mtg",
 	"library": "./library.js",
 	"hooks": [
